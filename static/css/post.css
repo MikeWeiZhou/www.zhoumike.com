@@ -217,7 +217,7 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
-/* @media screen and (max-width: 560px) {
+@media screen and (max-width: 560px) {
   .page-post {
     font-size: 13px;
   }
@@ -227,4 +227,10 @@
   .page-post .post > * {
     margin: 15px 0;
   }
-} */
+  .page-post .post h1::before,
+  .page-post .post h2::before,
+  .page-post .post h3::before {
+    position: inherit;
+    right: inherit;
+  }
+}
