@@ -26,7 +26,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1024px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 14px;
@@ -35,16 +35,16 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  max-width: 66.6666666%;
-  flex-basis: 66.6666666%;
-  margin-left: 16.6666666%;
+  max-width: 60%;
+  flex-basis: 60%;
+  margin-left: 19.9999999%;
   padding-right: 5%;
 }
 .col2 {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  flex-basis: 16.6666666%;
+  flex-basis: 19.9999999%;
 }
 @media (max-width: 920px) {
   .col1 {
@@ -72,14 +72,8 @@ body {
 }
 @media (max-width: 770px) {
   .col1 {
-    max-width: 93%;
-    flex-basis: 93%;
-  }
-}
-@media (max-width: 560px) {
-  .col1 {
-    max-width: 100%;
-    flex-basis: 100%;
+    max-width: 95%;
+    flex-basis: 95%;
   }
 }
 ol,

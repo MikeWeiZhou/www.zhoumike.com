@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <title>
-    Setup WSL for Development
+    Setup for Development in WSL
     -
     ZM
   </title>
@@ -16,10 +16,10 @@
   <meta name="applicable-device" content="pc,mobile">
   <meta name="author" content="ZM">
   <meta name="darkreader-lock">
-    <meta name="description" content="Setup WSL for Development">
+    <meta name="description" content="Setup for Development in WSL">
     <meta
       name="keywords"
-      content="ZM,WSL,Docker"
+      content="ZM,WSL,Docker,Devcontainer"
     >
   <link
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -27,16 +27,16 @@
   >
   <link rel="icon" href="/static/img/favicon.ico">
   <link rel="apple-touch-icon" href="/static/img/logo.png">
-  <link rel="stylesheet" href="/static/css/common.css?t=20230731081512">
-  <link rel="stylesheet" href="/static/css/theme-dark.css?t=20230731081512">
+  <link rel="stylesheet" href="/static/css/common.css?t=20230731090328">
+  <link rel="stylesheet" href="/static/css/theme-dark.css?t=20230731090328">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.css">
-    <link rel="stylesheet" href="/static/css/post.css?t=20230731081512">
-    <link rel="stylesheet" href="/static/css/code-dark.css?t=20230731081512">
-    <link rel="stylesheet" href="/static/css/code-light.css?t=20230731081512">
+    <link rel="stylesheet" href="/static/css/post.css?t=20230731090328">
+    <link rel="stylesheet" href="/static/css/code-dark.css?t=20230731090328">
+    <link rel="stylesheet" href="/static/css/code-light.css?t=20230731090328">
   <script>
     window.blog = {
       baseurl: '',
-      buildAt: '20230731081512',
+      buildAt: '20230731090328',
       darkMode: false,
       initDarkMode: function (flag) {
         if (flag && flag === 'true') this.darkMode = true;
@@ -103,9 +103,12 @@
               >WSL</a><a
                 href="/notes.html?category=Docker"
                 class="hover-underline"
-              >Docker</a>
+              >Docker</a><a
+                href="/notes.html?category=Devcontainer"
+                class="hover-underline"
+              >Devcontainer</a>
           </div>
-          <h1 class="title" id="Setup WSL for Development">Setup WSL for Development</h1>
+          <h1 class="title" id="Setup for Development in WSL">Setup for Development in WSL</h1>
           <div class="subtitle">
             <span class="material-icons">calendar_month</span>
               <span>
@@ -114,11 +117,11 @@
           </div>
           <div class="post"><h2 id="overview">Overview</h2>
 
-<p>Random configurations and notes for development with Windows Subsystem for Linux (WSL/WSL2).</p>
+<p>Setting up Windows Subsystem for Linux (WSL) is simple, but full-time development in WSL requires extra setup and workarounds. Let’s document some of these problem-solutions!</p>
 
-<h2 id="run-gui-applications">Run GUI Applications</h2>
+<h2 id="run-gui-apps-in-wsl">Run GUI Apps in WSL</h2>
 
-<p>Yes, we can run GUI applications in WSL, with a display server setup in Windows host.</p>
+<p>Run graphical applications in WSL by setting up a display server on Windows host machine.</p>
 
 <h3 id="setup-vcxsrv">Setup VcXSrv</h3>
 
@@ -149,9 +152,9 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h2 id="wsl--gpu--docker">WSL + GPU + Docker</h2>
+<h2 id="machine-learning-in-wsl">Machine Learning in WSL</h2>
 
-<p>We can even utilize our Nvidia GPU inside WSL to, say, run some machine learning code.</p>
+<p>Run machine learning, or any code that requires GPU drivers, inside WSL.</p>
 
 <blockquote>
   <p>Taken directly from <a href="https://ocdevel.com/blog/20201207-wsl2-gpu-docker">this site</a>.</p>
@@ -187,7 +190,7 @@
   <li><code class="language-plaintext highlighter-rouge">docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark</code></li>
 </ol>
 
-<h2 id="autostart-ssh-agent">Autostart SSH Agent</h2>
+<h2 id="autostart-ssh-agent-in-wsl">Autostart SSH Agent in WSL</h2>
 
 <p>Add to ~/.bashrc:</p>
 
@@ -212,7 +215,7 @@
 <span class="k">fi</span>
 </code></pre></div></div>
 
-<h2 id="forward-gpg-keys">Forward GPG keys</h2>
+<h2 id="forward-gpg-keys">Forward GPG Keys</h2>
 
 <p>Forward GPG keys from WSL to VSCode devcontainers.</p>
 
@@ -229,7 +232,7 @@
   <li>Add command to forward GPG TTY in bashrc file in WSL distro. <code class="language-plaintext highlighter-rouge">export GPG_TTY=$(tty)</code></li>
 </ol>
 
-<h2 id="zsh--cobalt2-theme">Zsh + Cobalt2 Theme</h2>
+<h2 id="beautiful-wsl-terminal">Beautiful WSL Terminal</h2>
 
 <p>Zshell (zsh) and Cobalt2 Theme makes a Windows terminal and shell pretty, even inside devcontainers!</p>
 
@@ -323,9 +326,9 @@ USER root
   type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.js"
 ></script>
-<script type="text/javascript" src="/static/js/blog.js?t=20230731081512"></script>
-<script type="text/javascript" src="/static/js/search.js?t=20230731081512"></script>
-<script type="text/javascript" src="/static/js/toc.js?t=20230731081512"></script>
+<script type="text/javascript" src="/static/js/blog.js?t=20230731090328"></script>
+<script type="text/javascript" src="/static/js/search.js?t=20230731090328"></script>
+<script type="text/javascript" src="/static/js/toc.js?t=20230731090328"></script>
 
 
 

@@ -86,6 +86,8 @@
   top: 0;
   font-weight: bold;
   padding-right: 6px;
+  position: absolute;
+  right: 100%;
 }
 .page-post .post h2::before {
   color: #ff7f7f;
