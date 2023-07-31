@@ -72,18 +72,31 @@
   text-decoration: underline;
 }
 .page-post .post h1,
-.page-post .post h2 {
-  font-weight: normal;
-  font-size: 18px;
+.page-post .post h2,
+.page-post .post h3 {
   position: relative;
   cursor: pointer;
+}
+.page-post .post h1,
+.page-post .post h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.page-post .post h3 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.page-post .post h4,
+.page-post .post h5,
+.page-post .post h6 {
+  font-size: 15px;
+  font-weight: bold;
 }
 .page-post .post h1::before,
 .page-post .post h2::before,
 .page-post .post h3::before {
   content: "#";
   color: inherit;
-  top: 0;
   font-weight: bold;
   padding-right: 6px;
   position: absolute;
@@ -91,13 +104,6 @@
 }
 .page-post .post h2::before {
   color: #ff7f7f;
-}
-.page-post h3,
-.page-post h4,
-.page-post h5,
-.page-post h6 {
-  font-size: 15px;
-  font-weight: bold;
 }
 .page-post blockquote {
   border-left: 3px solid #333333;
@@ -208,7 +214,7 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
-@media screen and (max-width: 560px) {
+/* @media screen and (max-width: 560px) {
   .page-post {
     font-size: 13px;
   }
@@ -218,4 +224,4 @@
   .page-post .post > * {
     margin: 15px 0;
   }
-}
+} */

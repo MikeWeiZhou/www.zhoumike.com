@@ -250,8 +250,8 @@ input:-webkit-autofill {
   mask-image: url("../img/icon-loading.svg");
   -webkit-mask-image: url("../img/icon-loading.svg");
 }
-@media screen and (max-width: 560px) {
+/* @media screen and (max-width: 560px) {
   .header .menu a {
     font-size: 15px;
   }
-}
+} */
