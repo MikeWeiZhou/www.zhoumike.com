@@ -51,6 +51,9 @@
 .page-post .pretitle .crud {
   float: right;
 }
+.page-post .pretitle .category-link {
+  margin-right: 8px;
+}
 .page-post .title {
   line-height: 1.8rem;
   font-size: 30px;
