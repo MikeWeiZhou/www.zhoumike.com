@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZM</title>
+    <link>https://www.zhoumike.com</link>
+    <description>Boring tidbits, reflections, life.</description>
+    <language>en</language>
+    <pubDate>Mon, 31 Jul 2023 01:21:37 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2023 01:21:37 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    <atom:link href="https://www.zhoumike.com/static/xml/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Setup WSL for Development</title>
+        <link>https://www.zhoumike.com/notes/2021/01/20/wsl2-configuration.html</link>
+        <description>OverviewRandomconfigurationsandnotesfordevelopmentwithWindowsSubsystemforLinux(WSL/WSL2).RunGUIApplicationsYes,wecanr...</description>
+        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+        <gui>https://www.zhoumike.com/notes/2021/01/20/wsl2-configuration.html</gui>
+      </item>
+      <item>
+        <title>Docker-Compose Samples</title>
+        <link>https://www.zhoumike.com/notes/2021/12/22/docker-compose-samples.html</link>
+        <description>OverviewSampleDocker-Composeconfigurations.TestedonDockerv20.10.8andDocker-Composev1.29.1.ForwardAWSCredentialsWecanf...</description>
+        <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+        <gui>https://www.zhoumike.com/notes/2021/12/22/docker-compose-samples.html</gui>
+      </item>
+  </channel>
+</rss>
