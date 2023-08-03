@@ -1,52 +1,23 @@
-.sidebar .toc-wrapper {
-  position: sticky;
-  top: 2rem;
-  margin-top: 7rem;
-  font-size: 12px;
-  line-height: 2;
-  border-left: 1px solid rgba(158, 158, 158, 0.17);
-}
-.sidebar .toc-header {
-  margin-left: 10px;
-  margin-bottom: 5px;
-  font-size: 16px;
-  font-weight: bold;
-}
-.sidebar .toc-link::before {
-  width: 0;
-}
-.sidebar .is-active-link.toc-link::before {
-  height: 1.5rem;
-  left: -1px;
-  width: 1px;
-  background-color: #ff7f7f;
-}
-.sidebar a.toc-link:hover {
-  font-weight: 700;
-  color: inherit;
-}
-.toc-list-item a {
-  color: #999999;
-}
-.toc-list-item.is-active-li > a {
-  color: inherit;
-}
+/* top level */
 .page-post {
-  font-size: 14px;
+  margin-top: 2rem;
+  font-size: 1.6rem;
   line-height: 2;
   hyphens: auto;
   word-break: normal;
 }
+
+/* post headers (metadata, title, subtitle, crud buttons) */
 .page-post .pretitle {
   margin-bottom: 2rem;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .page-post .pretitle .language-plaintext {
-  font-size: 12px;
+  font-size: inherit;
   margin-left: 0;
 }
 .page-post .pretitle .material-icons {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 .page-post .pretitle .crud {
   float: right;
@@ -55,25 +26,18 @@
   margin-right: 8px;
 }
 .page-post .title {
-  line-height: 1.8rem;
-  font-size: 30px;
+  line-height: 1;
+  font-size: 3rem;
   font-weight: bold;
   color: #666666;
+  margin-bottom: .6rem;
 }
 .page-post .subtitle {
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #999999;
 }
-.page-post .post > * {
-  margin: 18px 0;
-}
-.page-post .post > iframe {
-  margin: 0;
-  width: 100%;
-}
-.page-post .post a {
-  text-decoration: underline;
-}
+
+/* in-post headings */
 .page-post .post h1,
 .page-post .post h2,
 .page-post .post h3 {
@@ -83,16 +47,16 @@
 .page-post .post h1,
 .page-post .post h2 {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 2.3rem;
 }
 .page-post .post h3 {
-  font-weight: normal;
-  font-size: 17px;
+  font-weight: bold;
+  font-size: 1.7rem;
 }
 .page-post .post h4,
 .page-post .post h5,
 .page-post .post h6 {
-  font-size: 15px;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .page-post .post h1::before,
@@ -100,13 +64,26 @@
 .page-post .post h3::before {
   content: "#";
   color: inherit;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding-right: 6px;
   position: absolute;
   right: 100%;
 }
+.page-post .post h1::before,
 .page-post .post h2::before {
   color: #ff7f7f;
+}
+
+/* in-post common */
+.page-post .post > * {
+  margin: 18px 0;
+}
+.page-post .post > iframe {
+  margin: 0;
+  width: 100%;
+}
+.page-post .post a {
+  text-decoration: underline;
 }
 .page-post blockquote {
   border-left: 3px solid #333333;
@@ -163,7 +140,7 @@
   line-height: 1.6;
 }
 .page-post code {
-  font-size: 13px;
+  font-size: 1.6rem;
   background-color: #eeeeee;
   word-break: break-all;
   padding: 3px 5px;
@@ -172,7 +149,7 @@
   color: #4d4d4c;
 }
 .page-post pre code {
-  font-size: 13px;
+  font-size: 1.3rem;
   background-color: transparent !important;
   word-break: keep-all;
   padding: 0;
@@ -217,7 +194,45 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
-@media screen and (max-width: 560px) {
+
+/* sidebar table of contents*/
+.sidebar .toc-wrapper {
+  position: sticky;
+  top: 3rem;
+  margin-top: 13rem;
+  font-size: 1.4rem;
+  line-height: 2;
+  border-left: 1px solid rgba(158, 158, 158, 0.17);
+}
+.sidebar .toc-header {
+  margin-left: 10px;
+  margin-bottom: .5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.sidebar .toc-link::before {
+  width: 0;
+}
+.sidebar .is-active-link.toc-link::before {
+  margin-top: .3rem;
+  height: 2.4rem;
+  left: -1px;
+  width: 1px;
+  background-color: #ff7f7f;
+}
+.sidebar a.toc-link:hover {
+  font-weight: 700;
+  color: inherit;
+}
+.toc-list-item a {
+  color: #999999;
+}
+.toc-list-item.is-active-li > a {
+  color: inherit;
+}
+
+/* responsive layout */
+/* @media screen and (max-width: 560px) {
   .page-post {
     font-size: 13px;
   }
@@ -233,4 +248,4 @@
     position: inherit;
     right: inherit;
   }
-}
+} */

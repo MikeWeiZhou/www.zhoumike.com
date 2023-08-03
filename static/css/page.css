@@ -1,5 +1,6 @@
+/* post item list */
 .list-post > h2 {
-  font-size: 15px;
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 12px 0;
 }
@@ -14,7 +15,7 @@
 }
 .list-post li .date {
   color: #666666;
-  font-size: 14px;
+  font-size: 1.4rem;
   flex-shrink: 0;
   margin-right: 10px;
 }
@@ -27,7 +28,7 @@
   text-overflow: ellipsis;
 }
 .list-post li .title a {
-  font-size: 15px;
+  font-size: 1.6rem;
 }
 .list-post li .categories {
   flex-shrink: 0;
@@ -35,12 +36,14 @@
   margin-left: 10px;
 }
 .list-post li .categories a {
-  font-size: 12px;
+  font-size: 1.4rem;
   color: #666666;
   margin-left: 8px;
 }
+
+/* categories list */
 .list-category h2 {
-  font-size: 15px;
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 12px 0;
 }
@@ -50,13 +53,13 @@
 .list-category div a {
   margin: 4px 6px;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 1.6rem;
   display: inline-block;
 }
 .list-category div a {
   margin: 4px 6px;
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 1.6rem;
   display: inline-block;
 }
 .list-category div a.is-active-category {
@@ -65,9 +68,11 @@
 .list-category div a span {
   border-bottom: 1px solid #333333;
 }
+
+/* search page */
 .page-search #search-input {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.6rem;
   border: 1px solid #eaeaea;
   width: 100%;
   padding: 10px 0;
@@ -77,14 +82,14 @@
   color: transparent;
 }
 .page-search h1 {
-  font-size: 16px;
+  font-size: 2rem;
   height: 46px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
 }
 .page-search h1 i {
-  font-size: 20px;
+  font-size: 2.2rem;
   margin-left: 6px;
 }
 .page-search .list-search li {
@@ -99,14 +104,14 @@
 .page-search .list-search .title {
   display: inline-block;
   word-break: break-all;
-  font-size: 14px;
+  font-size: 1.6rem;
   font-weight: bold;
   padding-bottom: 1px;
   border-bottom: 1px solid #999;
 }
 .page-search .list-search .content {
   display: block;
-  font-size: 14px;
+  font-size: 1.6rem;
   color: #5a5a5a;
   word-break: break-all;
   padding: 10px 0;
@@ -116,7 +121,7 @@
   font-weight: bold;
   color: #ff7f7f;
 }
-@media screen and (max-width: 560px) {
+/* @media screen and (max-width: 560px) {
   .list-post > h2 {
     padding: 10px 0;
   }
@@ -135,4 +140,4 @@
   .list-category div a {
     font-size: 14px;
   }
-}
+} */
