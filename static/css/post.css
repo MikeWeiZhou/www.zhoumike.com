@@ -225,16 +225,20 @@
   font-weight: 700;
   color: inherit;
 }
-.toc-list-item a {
+li.toc-list-item a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: #999999;
 }
-.toc-list-item.is-active-li > a {
+li.toc-list-item.is-active-li > a {
   color: inherit;
 }
 
 /* responsive layout */
-/* @media screen and (max-width: 560px) {
-  .page-post {
+@media screen and (max-width: 560px) {
+  /* .page-post {
     font-size: 13px;
   }
   .page-post pre code {
@@ -242,11 +246,11 @@
   }
   .page-post .post > * {
     margin: 15px 0;
-  }
+  } */
   .page-post .post h1::before,
   .page-post .post h2::before,
   .page-post .post h3::before {
     position: inherit;
     right: inherit;
   }
-} */
+}

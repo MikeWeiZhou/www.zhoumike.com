@@ -50,6 +50,7 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   flex-basis: 19.9999999%;
+  max-width: 19.9999999%;
 }
 
 /* Common elements, pseudo elements, pseudo classes */
