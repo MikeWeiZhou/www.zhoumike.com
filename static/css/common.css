@@ -8,7 +8,7 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Helvetica, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow-y: overlay;
 }
 html[transition] {
