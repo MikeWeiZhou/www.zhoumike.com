@@ -5,6 +5,7 @@
   line-height: 2;
   hyphens: auto;
   word-break: normal;
+  overflow-wrap: anywhere;
 }
 
 /* post headers (metadata, title, subtitle, crud buttons) */
