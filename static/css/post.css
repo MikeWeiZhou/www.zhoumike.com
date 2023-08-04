@@ -19,6 +19,7 @@
 }
 .page-post .pretitle .material-icons {
   font-size: 1.6rem;
+  bottom: -0.4rem;
 }
 .page-post .pretitle .crud {
   float: right;
