@@ -6,10 +6,17 @@
     <link>https://www.zhoumike.com</link>
     <description>Boring tidbits, reflections, life.</description>
     <language>en</language>
-    <pubDate>Fri, 04 Aug 2023 08:27:52 +0000</pubDate>
-    <lastBuildDate>Fri, 04 Aug 2023 08:27:52 +0000</lastBuildDate>
+    <pubDate>Fri, 04 Aug 2023 08:33:59 +0000</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2023 08:33:59 +0000</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     <atom:link href="https://www.zhoumike.com/static/xml/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title></title>
+        <link>https://www.zhoumike.com/notes/2023/08/04/2023-08-04-building-microservices.html</link>
+        <description>OverviewNotesforthebookBuildingMicroservices:DesigningFine-GrainedSystems.PLACEHOLDERFORNOTES</description>
+        <pubDate>Fri, 04 Aug 2023 08:33:59 +0000</pubDate>
+        <gui>https://www.zhoumike.com/notes/2023/08/04/2023-08-04-building-microservices.html</gui>
+      </item>
       <item>
         <title>WSL Dev Environment Setup</title>
         <link>https://www.zhoumike.com/notes/2021/01/20/wsl2-configuration.html</link>
