@@ -17,11 +17,14 @@
   font-size: inherit;
   margin-left: 0;
 }
-.page-post .pretitle .material-icons {
+.page-post .material-icons {
   font-size: 1.6rem;
   bottom: -0.4rem;
 }
-.page-post .pretitle .crud {
+.page-post .crud {
+  position: sticky;
+  top: 2rem;
+  font-size: 1.2rem;
   float: right;
 }
 .page-post .pretitle .category-link {
