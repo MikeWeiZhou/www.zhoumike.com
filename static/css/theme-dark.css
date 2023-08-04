@@ -19,6 +19,9 @@ html.dark .list-category div a span {
 html.dark .list-post li .date {
   color: #8b949e;
 }
+html.dark .list-post li .title.private-post {
+  color: #8b949e;
+}
 html.dark .list-post li .categories a {
   color: #8b949e;
 }

@@ -19,6 +19,9 @@
   flex-shrink: 0;
   margin-right: 10px;
 }
+.list-post li .title.private-post {
+  color: #666666;
+}
 .list-post li .title {
   width: 0;
   flex-grow: 1;
