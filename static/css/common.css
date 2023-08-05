@@ -119,7 +119,7 @@ pre code {
   visibility: visible;
   transform: scaleX(1);
 }
-.material-icons {
+.row .material-icons {
   font-size: inherit;
   /* fix material icon spacing. */
   position: relative;
@@ -147,11 +147,11 @@ pre code {
 }
 .header .logo {
   font-weight: bolder;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }
 .header .menu a {
   display: inline-block;
-  margin: .2rem 0 .2rem .8rem;
+  margin: 0.2rem 0 0.2rem 0.8rem;
 }
 .header .menu a.is-active-page {
   color: #ff7f7f;
