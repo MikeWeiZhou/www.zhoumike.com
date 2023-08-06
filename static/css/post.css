@@ -9,6 +9,10 @@
 }
 
 /* drawio embed */
+.embed-drawio.drawio-full-screen,
+.embed-drawio.drawio-full-screen iframe {
+  transition: all 500ms ease;
+}
 .embed-drawio a {
   display: block;
   text-align: right;
@@ -18,7 +22,7 @@
   height: 400px;
 }
 .embed-drawio.drawio-full-screen {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
