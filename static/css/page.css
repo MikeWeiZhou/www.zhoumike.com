@@ -19,6 +19,9 @@
   flex-shrink: 0;
   margin-right: 10px;
 }
+.list-post li.private-post a.mark-as-read {
+  display: none;
+}
 .list-post li .title.private-post {
   color: #666666;
 }
