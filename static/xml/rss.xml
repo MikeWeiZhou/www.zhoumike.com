@@ -6,16 +6,9 @@
     <link>https://www.zhoumike.com</link>
     <description>Boring tidbits, reflections, life.</description>
     <language>en</language>
-    <pubDate>Wed, 23 Aug 2023 05:32:40 +0000</pubDate>
-    <lastBuildDate>Wed, 23 Aug 2023 05:32:40 +0000</lastBuildDate>
+    <pubDate>Wed, 23 Aug 2023 05:33:29 +0000</pubDate>
+    <lastBuildDate>Wed, 23 Aug 2023 05:33:29 +0000</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     <atom:link href="https://www.zhoumike.com/static/xml/rss.xml" rel="self" type="application/rss+xml" />
-      <item>
-        <title>WSL Dev Environment Setup</title>
-        <link>https://www.zhoumike.com/notes/2021/01/20/wsl2-configuration.html</link>
-        <description>OverviewSettingupWindowsSubsystemforLinux(WSL)issimple,butfull-timedevelopmentinWSLrequiresextrasetupandworkarounds.L...</description>
-        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-        <gui>https://www.zhoumike.com/notes/2021/01/20/wsl2-configuration.html</gui>
-      </item>
   </channel>
 </rss>
